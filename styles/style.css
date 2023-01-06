@@ -2,6 +2,12 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -19,7 +25,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 220px;
+    margin: 0px 220px;
 }
 .nav-title{
     font-weight: 800;
@@ -39,13 +45,61 @@ nav li{
 .banner{
     display: flex;
     align-items: center;
-    margin: 200px;
+    margin:0 200px;
 }
 .banner-title{
     font-weight: 700px;
     font-size: 85px;
+    margin-bottom: 20px;
 }
 .banner-sub-title{
     font-weight: 600px;
     font-size: 45px;
+    
+}
+.about-text{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section styles */
+
+.about-me{
+text-align: center;
+margin-top: 130px;
+background-color: #fff8f3;
+border-radius: 10px;
+padding: 130px 150px;
+}
+.section-title{
+
+margin-bottom: 30px;
+font-weight: 700px;
+}
+.section-description{
+font-weight: 400px;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-me .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
